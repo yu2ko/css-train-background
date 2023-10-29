@@ -1,128 +1,200 @@
+/* 'Завдання 1' description='Встановіть елементу .task1 зелений колір фон' */
 .task1 {
+  background: green;
 }
 
+/* 'Завдання 2' description='Встановіть елементу .task2 зображення на фон з посилання /img/img-400x200.jpg' */
 .task2 {
+  background-image: url('/img/img-400x200.jpg');
 }
 
+/* 'Завдання 3' description='Встановіть елементу .task3 лінійний градієнт на фон від жовтого до червоного' */
 .task3 {
+  background-image: linear-gradient(yellow, red);
 }
 
+/* 'Завдання 4' description='Встановіть елементу .task4 радіальний градієнт на фон closest-side, #3f87a6, #ebf8e1, #f69d3c' */
 .task4 {
+  background-image: radial-gradient(
+    closest-side,
+    #3f87a6,
+    #ebf8e1,
+    #f69d3c
+  );
+  /* ellipse,
+    #3f87a6 0%,
+    #ebf8e1 35%,
+    #f69d3c 70% */
 }
 
+/* 'Завдання 5' description='Встановіть елементу .task5 конічний градієнт на фон  from 3.1416rad at 10% 50%, #e66465, #9198e5' */
 .task5 {
+  background-image: conic-gradient(
+    from 3.1416rad at 10% 50%,
+    #e66465,
+    #9198e5
+  );
 }
 
+/* 'Завдання 6' description='Встановіть елементу .task6 повторення фонового зображення по горизонталі' */
 .task6 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: repeat-x;
 }
 
+/* 'Завдання 7' description='Встановіть елементу .task7 повторення фонового зображення по вертикаль' */
 .task7 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: repeat-y;
 }
 
+/* 'Завдання 8' description='Вимкніть елементу .task8 повторення фонового зображення' */
 .task8 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: no-repeat;
 }
 
+/* 'Завдання 9' description='Встановіть елементу .task9 повторення фонового зображення з пропорційним збільшенням проміжків, якщо зображення не вміщається повністю' */
 .task9 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: space;
 }
 
+/* 'Завдання 10' description='Встановіть елементу .task10 повторення фонового зображення з пропорційним змінення розміру проміжків, з заповненням всього елементу' */
 .task10 {
   background-image: url('/img/img-400x200.jpg');
+  background-repeat: round;
 }
 
+/* 'Завдання 11' description='Встановіть елементу .task11 прокручення фонового зображення разом зі сторінкою' */
 .task11 {
   background-image: url('/img/img-400x200.jpg');
+  background-attachment: scroll;
 }
 
+/* 'Завдання 12' description='Встановіть елементу .task12 нерухоме фонове зображення при прокрученні сторінки' */
 .task12 {
   background-image: url('/img/img-400x200.jpg');
+  background-attachment: fixed;
 }
 
+/* 'Завдання 13' description='Встановіть елементу .task13 прокручення фонового зображення разом з контентом' */
 .task13 {
   background-image: url('/img/img-400x200.jpg');
+  background-attachment: local;
 }
 
+/* 'Завдання 14' description='Встановіть елементу .task14 фонове зображення по центру' */
 .task14 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: center;
 }
 
+/* 'Завдання 15' description='Встановіть елементу .task15 фонове зображення зверху' */
 .task15 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: top;
 }
 
+/* 'Завдання 16' description='Встановіть елементу .task16 фонове зображення знизу' */
 .task16 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: bottom;
 }
 
+/* 'Завдання 17' description='Встановіть елементу .task17 фонове зображення зліва' */
 .task17 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: left;
 }
 
+/* 'Завдання 18' description='Встановіть елементу .task18 фонове зображення справу' */
 .task18 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: right;
 }
 
+/* 'Завдання 19' description='Встановіть елементу .task19 фонове зображення в 100px від початку контейнеру' */
 .task19 {
   background-image: url('/img/img-400x200.jpg');
+  background-position: 100px;
 }
 
+/* 'Завдання 20' description='Встановіть елементу .task20 автомтичний розмір фонового зображення' */
 .task20 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: auto;
 }
 
+/* 'Завдання 21' description='Встановіть елементу .task21 розмір фонового зображення 600px' */
 .task21 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: 600px;
 }
 
+/* 'Завдання 22' description='Встановіть елементу .task22 розмір фонового зображення 50% відсотків від контейнера' */
 .task22 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: 50%;
 }
 
+/* 'Завдання 23' description='Для елементу .task23 зробіть щоб фонове зображення вміщалось в доступну площу зі збереженням співвідношення сторін' */
 .task23 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: contain;
 }
 
+/* 'Завдання 24' description='Для елементу .task24 розтяніть фонове зображення на всю площу' */
 .task24 {
   background-image: url('/img/img-400x200.jpg');
+  background-size: cover;
 }
 
+/* 'Завдання 25 (продвинуте необовязкове)' description='Для елементу .task25 відображуйте фон в межах рамки' */
 .task25 {
   border: 20px dashed black;
   background-image: url('/img/img-400x200.jpg');
   box-sizing: border-box;
+  background-clip: border-box;
 }
 
+/* 'Завдання 26 (продвинуте необовязкове)' description='Для елементу .task26 відображуйте фон в межах полів' */
 .task26 {
   background-image: url('/img/img-400x200.jpg');
   border: 20px dashed black;
   box-sizing: border-box;
+  background-clip: padding-box;
 }
 
+/* 'Завдання 27 (продвинуте необовязкове)' description='Для елементу .task27 відображуйте фон в межах контенту тексту (для коректної роботи властивості ії треба використовувати css префікс -webkit- )' */
 .task27 {
   background-image: url('/img/img-400x200.jpg');
   font-size: 120px;
   font-weight: 900;
   color: transparent;
+  -webkit-background-clip: text;
 }
 
+/* 'Завдання 28 (продвинуте необовязкове)' description='Для елементу .task28 відображуйте фон в рамках обмежених зовнішнім полем елемента' */
 .task28 {
   background-image: url('/img/img-400x200.jpg');
   box-sizing: border-box;
   border: 20px dashed black;
   background-repeat: no-repeat;
+  background-origin: border-box;
 }
 
+/* 'Завдання 29 (продвинуте необовязкове)' description='Для елементу .task29 відображуйте фон в рамках обмежених внутрішнім полем елемента' */
 .task29 {
   background-image: url('/img/img-400x200.jpg');
   box-sizing: border-box;
   border: 20px dashed black;
   padding: 20px;
   background-repeat: no-repeat;
+  background-origin: padding-box;
 }
 
+/* 'Завдання 30 (продвинуте необовязкове)' description='Для елементу .task30 відображуйте фон починаючи з контенту' */
 .task30 {
   background-image: url('/img/img-400x200.jpg');
   box-sizing: border-box;
@@ -131,23 +203,34 @@
   font-size: 100px;
   font-weight: 900;
   padding: 60px;
+  background-origin: content-box;
 }
 
+/* 'Завдання 31 (продвинуте необовязкове)' description='Для елементу .task32 встановіть рамкою лінійний градієнт від синього до зеленого' */
 .task31 {
   border-image-slice: 1%;
   border-image-width: 40px;
   box-sizing: border-box;
+  border-image-source: linear-gradient(blue, green);
 }
 
+/* 'Завдання 32 (продвинуте необовязкове)' description='Для елементу .task32 встановіть рамкою зображення радіальний градієнт red 5%, green 15%, blue 60%' */
 .task32 {
   border-image-slice: 1%;
   border-image-width: 40px;
   box-sizing: border-box;
+  border-image-source: radial-gradient(
+    red 5%,
+    green 15%,
+    blue 60%
+  );
 }
 
+/* 'Завдання 33 (продвинуте необовязкове)' description='Для елементу .task33 встановіть повторення зображення рамки щоб зображення рамки розтянулось на всю довжину границі' */
 .task33 {
   border-image-source: url('/img/img-400x200.jpg');
   box-sizing: border-box;
   border-image-width: 40px;
   border-image-slice: 10;
+  border-image-repeat: stretch;
 }
